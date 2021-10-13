@@ -33,15 +33,15 @@ HELP = """
 """
 
 ABOUT = """
-➥ Name : Auto Filter With IMDB
+➥ Name : mayavi
     
-➥ Credits : Subin
+➥ Credits : Ajith
 
-➥ Editing : [Muhammed RK](t.me/Mrk_YT)
+➥ Editing : mayavi
 
-➥ Language : Python3
+➥ Language : parayulla
 
-➥ Library : Pyrogram Asyncio 1.13.0
+➥ Library : athum paryulla
 
-➥ Source Code : [Click Me](https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot)
+➥ Source Code : noki iruno....umbathe ollu🥴
 """
