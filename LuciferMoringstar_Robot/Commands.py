@@ -45,11 +45,11 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**🚫READ THIS INSTRUCTION🚫 \n \n 🗣നിങ്ങൾ ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള ചാനലിൽ ചാനലിൽ ജോയിൻ ചെയ്യണം. ജോയിൻ ചെയ്ത ശേഷം TRY AGAIN പ്രെസ്സ് ചെയ്താൽ  MOVIE ലഭിക്കും😍 \n \n 🗣 In Order In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, PRESS Try AGAIN BUTTON..I'll Send You That Movie Privately 🙈 \n \n 👇 JOIN THIS CHANNEL & PRESS TRY AGAIN**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("😌 Join this Channel ❤️", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -84,10 +84,10 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ Deploy Now 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('our main group😌❤️', url='https://t.me/Filmhunters123')
                     ],
                     [
-                        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
+                        InlineKeyboardButton("our series channel😈⚡️", url="https://t.me/joinchat/9w9cP_Yxylc4MTk1"),
                     ]
                     ]
                 await bot.send_cached_media(
@@ -121,21 +121,21 @@ async def start(bot, message):
                     [
                         InlineKeyboardButton
                             (
-                                "🔎Search Here", switch_inline_query_current_chat=''
+                                "our ott group☠️😻", url="https://t.me/filmhunters1234"
                             ),
                         InlineKeyboardButton
                             (
-                                "🤖More Botz", url="https://t.me/MT_Botz"
+                                "our series channel😈⚡️", url="https://t.me/joinchat/9w9cP_Yxylc4MTk1"
                             )
                     ],
                     [
                         InlineKeyboardButton
                             (
-                                "🤔Help", callback_data="help"
+                                "our main channel🔥⚡️", url="https://t.me/joinchat/DNwgNWkKbOxlYTI1"
                             ),
                         InlineKeyboardButton
                             (
-                                "About🤠", callback_data="about"
+                                "Our main group😌❤️", url="https://t.me/Filmhunters123"
                             )
                     ]
                 ]
@@ -348,7 +348,7 @@ async def bot_info(bot, message):
         [
             InlineKeyboardButton
                 (
-                     'Video', url=f'{TUTORIAL}'
+                     "our main channel🔥⚡️", url="https://t.me/joinchat/DNwgNWkKbOxlYTI1"
                 )
         ]
     ]
