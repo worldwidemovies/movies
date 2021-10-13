@@ -87,7 +87,7 @@ async def start(bot, message):
                         InlineKeyboardButton('our main group😌❤️', url='https://t.me/Filmhunters123')
                     ],
                     [
-                        InlineKeyboardButton("our series channel😈⚡️", url="https://t.me/joinchat/9w9cP_Yxylc4MTk1"),
+                        InlineKeyboardButton("our main channel😈⚡️", url="https://t.me/joinchat/DNwgNWkKbOxlYTI1"),
                     ]
                     ]
                 await bot.send_cached_media(
