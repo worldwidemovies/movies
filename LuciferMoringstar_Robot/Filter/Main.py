@@ -134,8 +134,7 @@ async def group(client, message):
             chat_id = message.chat.id,
             text=f"""
 👋Hey {message.from_user.mention}
-The spelling of the name of the requested movie may not be correct...
-So you go to google and check the spelling of the name of the movie you want \n \n നിങ്ങൾ ഗൂഗിളിൽ പോയി നിങ്ങൾക്ക് ആവശ്യമുള്ള സിനിമയുടെ പേരിന്റെ സ്പെല്ലിംഗ് പരിശോധിക്കു🥴🥴... \n \n [NB] netflix series ആണെങ്കിൽ admins online വരുമ്പോൾ എടുത്ത് തരും😊""",
+<i>Sorry, No Movie Related to the Given Word Was Found🥺 \n Please Go to Google and Confirm the Correct Spelling🙏</i> \n \n നിങ്ങൾ ഗൂഗിളിൽ പോയി നിങ്ങൾക്ക് ആവശ്യമുള്ള സിനിമയുടെ പേരിന്റെ സ്പെല്ലിംഗ് പരിശോധിക്കു🥴🥴... \n \n <b>[NB] netflix series ആണെങ്കിൽ admins online വരുമ്പോൾ എടുത്ത് തരും😊<\b>""",
             parse_mode="html",
             reply_to_message_id=message.message_id
         )
