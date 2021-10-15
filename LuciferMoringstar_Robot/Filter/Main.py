@@ -115,7 +115,7 @@ async def group(client, message):
     if 2 < len(message.text) < 50:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title}**"
+        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by @Filmhunters123**"
         nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
@@ -134,7 +134,7 @@ async def group(client, message):
             chat_id = message.chat.id,
             text=f"""
 👋Hey {message.from_user.mention}
-<i><u>Sorry, No Movie Related to the Given Word Was Found🥺 \n Please Go to Google and Confirm the Correct Spelling🙏</i></u> \n \n നിങ്ങൾ ഗൂഗിളിൽ പോയി നിങ്ങൾക്ക് ആവശ്യമുള്ള സിനിമയുടെ പേരിന്റെ സ്പെല്ലിംഗ് പരിശോധിക്കു🥴🥴... \n \n <b>[NB] netflix series ആണെങ്കിൽ admins online വരുമ്പോൾ എടുത്ത് തരും😊</b>""",
+<i><u>Sorry, No Movie Related to the Given Word Was Found🥺 \n Please Go to Google and Confirm the Correct Spelling🙏</i></u> \n \n <b>നിങ്ങൾ ഗൂഗിളിൽ പോയി നിങ്ങൾക്ക് ആവശ്യമുള്ള സിനിമയുടെ പേരിന്റെ സ്പെല്ലിംഗ്❗️ & release ഡേറ്റ്❗️ പരിശോധിക്കുക🥴🥴..</b> \n \n [NB] netflix series ആണെങ്കിൽ admins online വരുമ്പോൾ എടുത്ത് തരും😊""",
             parse_mode="html",
             reply_to_message_id=message.message_id
         )
