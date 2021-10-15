@@ -134,7 +134,7 @@ async def group(client, message):
             chat_id = message.chat.id,
             text=f"""
 👋Hey {message.from_user.mention}
-<i><u>Sorry, No Movie Related to the Given Word Was Found🥺 \n Please Go to Google and Confirm the Correct Spelling🙏</i></u> \n \n <b>നിങ്ങൾ ഗൂഗിളിൽ പോയി നിങ്ങൾക്ക് ആവശ്യമുള്ള സിനിമയുടെ പേരിന്റെ സ്പെല്ലിംഗ്❗️ & release ഡേറ്റ്❗️ പരിശോധിക്കുക🥴🥴..</b> \n \n [NB] netflix series ആണെങ്കിൽ admins online വരുമ്പോൾ എടുത്ത് തരും😊""",
+<i><u>Sorry, No Movie Related to the Given Word Was Found🥺 \n Please Go to Google and Confirm the Correct Spelling🙏</i></u> \n \n <b>നിങ്ങൾ ഗൂഗിളിൽ പോയി നിങ്ങൾക്ക് ആവശ്യമുള്ള സിനിമയുടെ പേരിന്റെ സ്പെല്ലിംഗ്❗️ & RELEASE ഡേറ്റ്❗️ പരിശോധിക്കുക🥴🥴..</b> \n \n <i>[NB] netflix series ആണെങ്കിൽ admins online വരുമ്പോൾ എടുത്ത് തരും😊</i>""",
             parse_mode="html",
             reply_to_message_id=message.message_id
         )
