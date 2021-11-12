@@ -33,11 +33,11 @@ HELP = """
 """
 
 ABOUT = """
-➥ Name : mayavi
+➥ Name : bot
     
-➥ Credits : Ajith
+➥ Credits : subin
 
-➥ Editing : mayavi
+➥ Editing : subin
 
 ➥ Language : parayulla
 
