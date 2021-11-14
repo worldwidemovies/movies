@@ -348,7 +348,7 @@ async def bot_info(bot, message):
         [
             InlineKeyboardButton
                 (
-                     "our main channel🔥⚡️", url="https://t.me/worldwidemoviesmainchannel"
+                     "our group🔥⚡️", url="https://t.me/worldwidemoviesgroup"
                 )
         ]
     ]
